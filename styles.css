@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+}
+
+.panel {
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #434249;
+  text-decoration: none;
+  color: white;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 100px;
+}
+
+.content {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #333;
+  margin: 0;
+  margin: 10px 0;
+}
+
+.page-title {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  color: aquamarine;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+  height: 400px;
+}
+
+.image-container:first-child {
+  margin-left: 200px;
+}
+
+.image-container:last-child {
+  margin-right: 200px;
+}
+
+.image {
+  margin: 5px;
+  height: 300px;
+  width: 300px;
+}
+
+.image-text-container {
+  color: rgb(234, 245, 241);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image-text {
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+  align-self: center;
+}
+
+.button-separator {
+  margin: 20px 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  text-align: center;
+  margin: -15px;
+  padding: 40px;
+  color: rgb(234, 245, 241);
+}
+
+.contact-us {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contact-us p {
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: #007BFF;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.contact-us img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
